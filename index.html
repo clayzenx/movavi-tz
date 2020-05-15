@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Movavi</title>
+
+	<link rel="stylesheet" type="text/css" href="./normalize.css">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<header class="header">
+		<div class="header__content">
+			<div class="header__left">
+				<img src="./img/burger.png" alt="burger" class="header__burger flex-item">
+				<img src="./img/logo.png" alt="burger" class="header__logo flex-item">
+			</div>
+			<div class="header__right">
+				<div class="header__cart flex-item">
+					<img class="header__cart-icon flex-item" alt="cart" src="./img/cart-icon.png"></img>
+					<p class="header__cart-text">0 руб.</p>
+				</div>
+				<img class="header__dots" src="./img/elipsis.png" alt="dots"></img>
+			</div>
+		</div>
+		<div class="modal-cart-bg">
+			<div class="shopping-cart">
+				<div class="shopping-cart__quit-link">
+					<img class="shopping-cart__quit-link-icon" src="./img/arrow-back.png" alt="arrow back"></img>
+					<p class="shopping-cart__quit-link-text">Continue Shopping</p>
+				</div>
+				<p class="shopping-cart__title">Shopping Cart</p>
+				<div class="shopping-cart__items">
+					<!-- items dropped here -->
+				</div>
+				<p class="shopping-cart__cleaner">clean</p>
+				<div class="shopping-cart__total">
+					<p class="shopping-cart__total-text">Total</p>
+					<p class="shopping-cart__total-price"></p>
+				</div>	
+				<input class="shopping-cart__checkout-btn" type="button" name="" value="Check out">																																																																										
+			</div>
+
+		</div>
+	</header>
+
+	<main class="main">
+		<h2 class="main__title">Movavi Video Suite for Windows</h2>
+		<div class="main__content">
+			<!-- card1 -->
+			<div class="card">
+				<div class="card__block">
+					<h3 class="card__title">Video Suite</h3>
+					<h4 class="card__subtitle">Lifetime / 1 PC</h4>
+					<div class="card__paragraph">
+						<span>Video Editor Plus</span>
+						<pre>1490 руб.</pre>
+					</div>
+					<div class="card__paragraph">
+						<span>Video Converter Premium</span>
+						<pre>1290 руб.</pre>
+					</div>
+					<div class="card__paragraph">
+						<span>Screen Recorder</span>
+						<pre>990 руб.</pre>
+					</div>
+				</div>
+				<div class="card__block">
+					<p class="card__priceold" id="old-price">
+						3 770 руб.
+					</p>
+					<div class="card__pricenew">
+						<span class="big" id="product-price">1990</span>
+						<span>руб.</span>
+					</div>
+					<input class="card__buybtn" type="button" name="buy" value="Buy Now">
+				</div>
+			</div>
+			<!-- card2 -->
+			<div class="card bestsale">
+				<div class="card__block">
+					<h3 class="card__title">Video Suite + Photo Editor</h3>
+					<h4 class="card__subtitle">Lifetime / 1 PC</h4>
+					<div class="card__paragraph">
+						<span>Video Editor Plus</span>
+						<pre>1490 руб.</pre>
+					</div>
+					<div class="card__paragraph">
+						<span>Video Converter Premium</span>
+						<pre>1290 руб.</pre>
+					</div>
+					<div class="card__paragraph">
+						<span>Screen Recorder</span>
+						<pre>990 руб.</pre>
+					</div>
+					<div class="card__paragraph">
+						<span class="card__title">Photo Editor</span>
+						<pre>1290 руб.</pre>
+					</div>
+					<ul class="card__list">
+						<li class="card__list-item">Edit, enhance and retouch images</li>
+						<li class="card__list-item">Restore old photos</li>
+					</ul>
+				</div>
+				<div class="card__block">
+					<p class="card__priceold" id="old-price">5600</p>
+					<div class="card__pricenew">
+						<span class="big" id="product-price">2490</span>
+						<span>руб.</span>
+					</div>
+					<div class="card__validtimer">
+						<img class="card__validtime-icon" src="./img/icon1.png"></img>
+						<p class="card__validtimer-text">Offer valid <span id='offer-valid'></span> second</p>
+					</div>
+					<input class="card__buybtn btnblue" type="button" name="buy" value="Buy Now">
+				</div>
+			</div>
+		</div>
+		<div class="companies">
+			<img src="./img/1.png" alt="" class="companies__logo">
+			<img src="./img/2.png" alt="" class="companies__logo">
+			<img src="./img/3.png" alt="" class="companies__logo">
+			<img src="./img/4.png" alt="" class="companies__logo">
+			<img src="./img/5.png" alt="" class="companies__logo">
+		</div>
+
+		<div class="info">
+			<div class="info__block">
+				<div class="info__title">
+					<img class="info__title-icon" src="./img/info1.png"></img>
+					<p class="info__title-text">30 Day Money Back Guarantee</p>
+				</div>
+				<p class="info__content">
+					If you experience technical or other problems that cannot be solved, you can get a complete refund of your purchase price within 30 days. Check our Refund Policy to find out if you are eligible for a full refund.
+				</p>
+			</div>
+			<div class="info__block">
+				<div class="info__title">
+					<img class="info__title-icon" src="./img/info2.png"></img>
+					<p class="info__title-text">Totally Secure Payments</p>
+				</div>
+				<p class="info__content">
+					Our payments are processed via the 2Checkout payment gateway. 2Checkout provides the highest standards of online security. It guarantees the safety of your payments and personal information.
+				</p>
+			</div>
+			<div class="info__block">
+				<div class="info__title">
+					<img class="info__title-icon" src="./img/info3.png"></img>
+					<p class="info__title-text">What Do I Get?</p>
+				</div>
+				<p class="info__content">
+					15 minutes after purchase, you will receive an email with a download link and activation key to the account used to make the purchase. Use these to download and activate the program.
+				</p>
+			</div>
+		</div>
+		<div class="altbg">
+			<div class="info">
+				<div class="info__block">
+					<div class="info__title">
+						<img class="info__title-icon" src="./img/info2.png"></img>
+						<p class="info__title-text">Totally Secure Payments</p>
+					</div>
+					<p class="info__content">
+						Our payments are processed via the 2Checkout payment gateway. 2Checkout provides the highest standards of online security. It guarantees the safety of your payments and personal information.
+					</p>
+				</div>
+			<div class="info__block">
+				<div class="info__title">
+					<img class="info__title-icon" src="./img/info3.png"></img>
+					<p class="info__title-text">What Do I Get?</p>
+				</div>
+				<p class="info__content">
+					15 minutes after purchase, you will receive an email with a download link and activation key to the account used to make the purchase. Use these to download and activate the program.
+				</p>
+				</div>
+			</div>
+		</div>
+	</main>	
+
+	<!-- footer -->
+	<footer class="footer">
+		<div class="footer__content">
+			<img class="footer__logo" src="./img/logo.png"></img>
+			<div class="footer__signup">
+				<p class="footer__signup-title">Sign up for news and special offers</p>
+				<div class="footer__input">
+					<input class="footer__input-field" type="text" value="user@email.com" name="mail">
+					<input type="button" class="footer__input-button" value="Sign Up">
+				</div>
+				<div class="footer__check">
+					<input class="footer__check-checkbox" type="checkbox" name="check1">
+					<p class="footer__check-text">By signing up, you consent to receive our marketing emails and agree to Movavi using your personal data in accordance with our <span class="link">Privacy Policy</span>. You also confirm that you meet the <span class="link">minimum age requirements</span>.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
